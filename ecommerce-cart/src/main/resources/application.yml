@@ -32,7 +32,7 @@ write-model:
     max-age: 216000 #1 hour
     jmx-enabled: true
     driver-class-name: com.mysql.cj.jdbc.Driver
-    hibernate.dialect: org.hibernate.dialect.MySQL57InnoDBDialect
+  hibernate.dialect: org.hibernate.dialect.MySQL57InnoDBDialect
 
 read-model:
   hibernate:
@@ -60,4 +60,4 @@ read-model:
     max-age: 216000 #1 hour
     jmx-enabled: true
     driver-class-name: com.mysql.jdbc.Driver
-    hibernate.dialect: org.hibernate.dialect.MySQL57InnoDBDialect
+  hibernate.dialect: org.hibernate.dialect.MySQL57InnoDBDialect

@@ -35,4 +35,5 @@ repositories {
 dependencies {
 	compile project(path: "ecommerce-cart")
 	compile "com.github.kotato.KAxon-CQRS:0.0.10"
+	compile "mysql:mysql-connector-java:8.0.11"
 }
