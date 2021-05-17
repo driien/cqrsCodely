@@ -12,6 +12,7 @@ import org.springframework.test.context.junit.jupiter.SpringExtension
 import javax.inject.Inject
 import javax.inject.Named
 import kotlin.test.assertFailsWith
+import kotlin.test.assertTrue
 
 @SpringBootTest(classes = arrayOf(EcommerceApplication::class))
 @ExtendWith(SpringExtension::class)
@@ -38,6 +39,7 @@ class CqrsCommandBusTest {
     open class TestCommandHandler {
         @CommandHandler
         fun on(command: TestCommand) {
+            //do nothing
         }
     }
 }
