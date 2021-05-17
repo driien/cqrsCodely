@@ -12,7 +12,6 @@ buildscript {
 		classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:${kotlinVersion}"
 		classpath "org.jetbrains.kotlin:kotlin-noarg:${kotlinVersion}"
 		classpath "org.junit.platform:junit-platform-gradle-plugin:1.0.1"
-		classpath "mysql:mysql-connector-java:8.0.11"
 	}
 }
 
@@ -61,7 +60,7 @@ dependencies {
 	compile "com.github.kotato:KAxon-CQRS:0.0.10"
 	compile "com.github.kotato:assertSimilar:0.0.1"
 	compile "javax.inject:javax.inject:1"
-	compile "mysql:mysql-connector-java:6.0.6"
+	compile "mysql:mysql-connector-java:8.0.11"
 	compile "org.axonframework:axon-spring-boot-starter:$axonVersion"
 	compile "org.hibernate:hibernate-c3p0:5.2.10.Final"
 	compile "org.hibernate:hibernate-java8:5.0.11.Final"
